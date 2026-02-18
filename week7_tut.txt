@@ -1,0 +1,36 @@
+    1  git config --global user.name 'me-unpredictable'
+    2  git config --global user.email vishalpatel654@gmail.com
+    3  git config --liost
+    4  clear
+    5  git config --list
+    6  ssh-keygen
+    7  cd ~/.ssh/
+    8  ls
+    9  cat id_ed25519.pub
+   10  cd ~
+   11  mkdir week7
+   12  cd week7
+   13  echo "# week7tut" >> README.md
+   14  git init
+   15  git add README.md
+   16  git commit -m "first commit"
+   17  git branch -M main
+   18  git remote add origin git@github.com:me-unpredictable/week7tut.git
+   19  git push -u origin main
+   20  clear
+   21  ls
+   22  git add 1.r
+   23  git commit -m 'first commit'
+   24  git push
+   25  git add 1.r 
+   26  git commit -m 'using head function'
+   27  git push
+   28  clear
+   29  git branch new_feat
+   30  git checkout new_fet
+   31  git checkout new_feat
+   32  git add 2.r 
+   33  git commit -m 'adding a new file in a new branch'
+   34  git push -u origin new_feat
+   35  git checkout main
+   36  history >> week7_tut.txt
